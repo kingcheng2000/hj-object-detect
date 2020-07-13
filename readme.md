@@ -239,4 +239,15 @@ $ rosdep install -y -r --from-path . --ignore-src
 Click image to link to YouTube video.  
 [![plier_check](https://user-images.githubusercontent.com/4105524/63911188-631e9600-ca64-11e9-9825-16f701b9bb00.png)](https://youtu.be/3cFitqKaLN0)   
 
+notes 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+sh make.sh fatal error: opencv2/opencv.hpp: No such file or directory
+问题：
 
+sh make.sh fatal error: opencv2/opencv.hpp: No such file or directory
+
+解决：
+
+sudo apt-get install libopencv-dev
+
+ 
